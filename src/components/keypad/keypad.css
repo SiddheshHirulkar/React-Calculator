@@ -1,0 +1,17 @@
+.cal-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(60px, auto);
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+  .division-key, .multiplication-key, .substraction-key, .equals-key, .addition-key {
+    background-color: rgb(225, 80, 28);
+    color: aliceblue;
+  }
+  
+  .expand-box {
+    grid-column: 1/3;
+  }
+  

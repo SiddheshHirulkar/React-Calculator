@@ -1,0 +1,10 @@
+.cal-screen {
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: gray;
+    color: aliceblue;
+    text-align: end;
+  }
